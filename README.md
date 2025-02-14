@@ -15,12 +15,24 @@ Data sets:
 This project includes customer.csv (customer details) and credit_card.csv (credit card transactions), which were imported into SQL as relational tables. The customer table stores customer information, while the credit_card table records transactions linked by customer_id. CSV files were loaded into SQL using the LOAD DATA INFILE command.
 
 
-Steps : 
-• Imported CSV Files – Loaded customer.csv and credit_card.csv into SQL using LOAD DATA INFILE.
-• Created SQL Tables – Defined customer and credit_card tables with primary and foreign keys.
-• Performed Data Cleaning – Removed duplicates, handled missing values, and formatted dates.
-• Executed Queries – Used SQL queries for customer insights and transaction analysis.
-• Built Dashboards – Created two dashboards in Power BI
+
+
+Steps:
+Imported CSV Files – Loaded customer.csv and credit_card.csv into SQL.
+Created SQL Tables – Defined customer and credit_card tables with primary and foreign keys.
+Performed Data Cleaning – Removed duplicates, handled missing values, and formatted dates.
+Loaded Data into Power BI – Connected SQL tables to Power BI for visualization.
+Created DAX Columns –
+Week_Num2 – Extracted the week number from the transaction date.
+Week_Start_Date – Calculated the start date of each week.
+Created DAX Measures –
+Current_Week_Revenue, Previous_Week_Revenue, WOW_Revenue, WOW_Growth_Percentage
+Total Transactions, Total Customers, Average Transaction Value
+Built Dashboards in Power BI –
+Transaction Report Dashboard – Analyzes total revenue, WoW growth, transaction trends, and payment methods.
+Customer Report Dashboard – Tracks customer segmentation, spending behavior, and new vs. returning customers.
+
+
 
 
 Project Insights : Week 53 (31st Dec)
